@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Status Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Website Status Checker</h1>
+    </header>
+    <main>
+        <div class="input-container">
+            <input type="text" id="url-input" placeholder="Enter website URL">
+            <button id="add-button">Add</button>
+        </div>
+        <table id="status-table">
+            <thead>
+                <tr>
+                    <th>Website</th>
+                    <th>Status</th>
+                    <th>Last Checked</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be dynamically generated -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Website Status Checker</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
